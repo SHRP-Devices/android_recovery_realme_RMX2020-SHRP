@@ -161,6 +161,10 @@ SHRP_MAINTAINER := sarthakroy2002
 # Device codename *
 SHRP_DEVICE_CODE := RMX2020
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+# Official
+SHRP_OFFICIAL := true
+# Recovery Theme
+SHRP_DARK := true
 SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
 SHRP_DEVICE_TYPE := A/B
@@ -174,5 +178,3 @@ SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 # Path
 SHRP_REC := /dev/block/by-name/recovery
-# OFFICIAL
-SHRP_OFFICIAL := true
